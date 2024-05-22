@@ -1,0 +1,4 @@
+----------------------------------------------------------
+FILESPEED LOG FILE.
+Below are log entries for each file uploaded to FileSpeed:
+----------------------------------------------------------

@@ -1,0 +1,2 @@
+This directory contains all files uploaded through the upload page.
+You can also delete this file if you wish.
