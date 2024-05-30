@@ -49,7 +49,3 @@ This diagram is intended to demonstrate the file uploading process in `/public/u
 Please note the following when contributing:
 
 - When editing the backend architecture diagram, please use [Excalidraw](https://excalidraw.com/) and include the save file in your pull request. You can find the save file at `/other/backend.excalidraw`.
-
-## License:
-
-Licensed under [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).

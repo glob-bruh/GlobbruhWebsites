@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body {
+    margin: 5em auto;
+    width: 60em;
+    max-width: calc(100% - 6em);
+    background-color: black;
+    font-family: "Archivo Black";
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    background-color: white;
+    color: black;
+    text-shadow: 2px 2px 0px limegreen;
+    transform: skew(0deg, -5deg);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    color: darkgray;
+}
+
+.button {
+    background-color: #1f1f1f;
+    border-color: limegreen;
+    border-radius: 10px;
+    color: limegreen;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    transition-duration: 0.5s;
+    color: red;
+    border-color: red;
+}
+
+input[type="text"] {
+    text-align: center;
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    border-bottom: 1px solid darkgray;
+    outline-width: 2px;
+    width: 250px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    outline: 0px;
+}
+
+input[type="text"]:focus {
+    transition-duration: 0.5s;
+    border-color: transparent;
+    color: white;
+    border-bottom: 1px solid limegreen;
+}
+
+select {
+    background-color: #1f1f1f;
+    border-color: limegreen;
+    color: limegreen;
+    text-align: center;
+    border-radius: 10px;
+    width: 144px;
+}
