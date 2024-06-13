@@ -1,0 +1,64 @@
+
+pre#log {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+}
+
+@keyframes warnAnimation {
+    0% {
+        background-color: red;
+        color: black;
+    }
+    50% {
+        background-color: black;
+        color: white;
+    }
+    100% {
+        background-color: red;
+        color: black;
+    }
+}
+
+div#downloadWarn {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+    animation: warnAnimation 0.5s infinite;
+}
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+img {
+    width: 50%;
+    max-width: 200px;
+    border-radius: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid black;
+}
+
+input[type="text"] {
+    outline: 0px;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid red;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input[type="text"]:focus {
+    transition-duration: 0.5s;
+    border-bottom: 2px solid white;
+}

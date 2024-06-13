@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@keyframes backgroundFX {
+    000% { background-color: rgb(075, 000, 000); }
+    016% { background-color: rgb(075, 075, 000); }
+    032% { background-color: rgb(000, 075, 000); }
+    048% { background-color: rgb(000, 075, 075); }
+    064% { background-color: rgb(000, 000, 075); }
+    080% { background-color: rgb(075, 000, 075); }
+    100% { background-color: rgb(075, 000, 000); }
+}
+
+@media (max-width: 500px) {
+    pre {
+        font-size: 75%;
+    }
+}
+
+body {
+    height: fit-content;
+    font-family: "Open Sans";
+    background-color: black;
+    background-repeat: no-repeat;
+    animation: backgroundFX 300s infinite;
+    animation-timing-function: linear;
+}
+
+hr {
+    width: 50%;
+    min-width: 325px;
+    color: #000001;
+}
+
+h1 {
+    font-family: "Tiny5";
+    font-size: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.submitBut {
+    color: red;
+    background-color: black;
+    border-radius: 7px;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+.submitBut:hover {
+    transition-duration: 0.5s;
+    color: magenta;
+    cursor: pointer;
+}
+
+#submitButCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#footerStats {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: fit-content;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+div#footerStats > p {
+    text-align: center;
+}
