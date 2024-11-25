@@ -1,0 +1,54 @@
+#fileUploadPicker {
+	background-color: red;
+	border: none;
+	color: black;
+	padding: 15px;
+	text-align: center;
+	border-radius: 10px;
+	width: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#fileUploadPicker:hover {
+	background-color: maroon;
+	color: white;
+	transition-duration: 500ms;
+}
+#uploadBtn {
+	background-color: red;
+	border: none;
+	color: black;
+	padding: 15px;
+	text-align: center;
+	font-size: 16px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	max-width: 300px;
+	width: 100%;
+}
+#uploadBtn:hover {
+	background-color: maroon;
+	color: white;
+	transition-duration: 500ms;
+}
+p#toswarn {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	width: 75%;
+	max-width: 300px;
+	border-radius: 15px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+p#toswarn > a {
+	color: white;
+	text-decoration: underline;
+}
+p#toswarn > a:hover {
+	color: red;
+}

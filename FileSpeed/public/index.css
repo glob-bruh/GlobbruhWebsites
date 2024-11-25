@@ -1,0 +1,23 @@
+p {
+	text-align: center;
+}
+p#openquote {
+	font-size: 2em;
+}
+p#openannounce {
+	font-size: 3em;
+}
+.redtext {
+	color: red;
+}
+a#fsspecial {
+	color: red;
+}
+@media screen and (max-width: 720px) {
+	article > p#openquote {
+		font-size:1.5em;
+	}
+	article > p#openannounce {
+		font-size:2em;
+	}
+}

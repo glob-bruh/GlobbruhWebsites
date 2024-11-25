@@ -1,0 +1,37 @@
+a {
+	color: white;
+}
+a:hover {
+	color: red;
+}
+div.list {
+	text-align: center;
+}
+article > p {
+	text-align: center;
+}
+ul {
+	display: inline-block;
+	text-align: left;
+	max-width: 35%;
+}
+ol {
+	display: inline-block;
+	text-align: left;
+	max-width: 35%;
+}
+@media screen and (max-width: 720px) {
+	article > p {
+		text-align: left;
+	}
+	ul {
+		display: block;
+		text-align: none;
+		max-width: none;
+	}
+	ol {
+		display: block;
+		text-align: none;
+		max-width: none;
+	}
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Play', sans-serif;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+h2 {
+	color: red;
+	text-align: center;
+	text-decoration: underline;
+}
+nav {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+nav > button {
+	background: linear-gradient(0deg, #ff0000 0%, #ffffff 100%);
+	border: none;
+	margin-right: 15px;
+	font-family: 'Play'. sans-serif;
+	font-weight: bold;
+	border-radius: 10px;
+	height: 35px;
+}
+nav > button:hover {
+	cursor: pointer;
+	background: linear-gradient(0deg, #000000 0%, #ff0000 100%);
+	color: white;
+	transition-duration: 500ms;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 100%;
+	max-width: 450px;
+}
+h1#siteSubtitle {
+	text-shadow: 5px 5px 3px red;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	font-size: larger;
+}
+hr {
+	color: maroon;
+}
+button#PremBtn {
+	animation: keyframePremBTN 5s infinite linear;
+	color: black;
+	background: linear-gradient(0deg, #ff0000 0%, #ffffff 100%);
+	background-image: repeating-linear-gradient(30deg,red, orange, yellow, green, blue, indigo, violet, red);
+	background-size: 500%;
+}
+button#PremBtn:hover {
+	color: white;
+}
+@keyframes keyframePremBTN {
+    0%  {background-position: 0%;}
+    50% {background-position: 100%;}
+    100% {background-position: 0%;}
+}
+p#footerStamp {
+	text-align: center;
+	margin-top: 2em;
+}
+p#footerStamp > a {
+	color: white;
+}
+p#footerStamp > a:hover {
+	color: red;
+}

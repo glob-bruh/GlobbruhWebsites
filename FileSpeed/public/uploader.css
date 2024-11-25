@@ -1,0 +1,17 @@
+a {
+	color: white;
+}
+a:hover {
+	color: red;
+}
+#greenFileTitle {
+	text-align: center;
+	color: limegreen;
+}
+#redFileTitle {
+	text-align: center;
+	color: red;
+}
+#subtext {
+	text-align: center;
+}
