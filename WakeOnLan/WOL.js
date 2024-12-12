@@ -1,14 +1,27 @@
 function fillMac() {
-    x = document.getElementsByName("compSel")[0].selectedIndex;
     y = document.getElementsByName("targMac")[0];
+    y.value = document.getElementById("compSel").value;
+}
 
-    // Add Preset MAC's in this case statement.
-    switch(x) {
-        case 0:
-            y.value = "";
-            break;
-        case 1:
-            y.value = "11:22:33:44:55:66";
-            break;
+async function generateDropdown(json) {
+    for (let i =0 ; i < json["hosts"].length ; i++) {
+        var t = json["hosts"][i]
+        var x = document.createElement("option");
+        x.text = t["name"];
+        x.value = t["mac"];
+        document.getElementById("compSel").append(x)
     }
 }
+
+async function getJson(url) {
+    const response = await fetch(url);
+    const json = await response.json();
+    return json;
+}
+
+async function main() {
+    const jsonOut = await getJson("hosts.json");
+    generateDropdown(jsonOut)
+}
+
+main()
